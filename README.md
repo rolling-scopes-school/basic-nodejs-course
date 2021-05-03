@@ -20,11 +20,11 @@ You can generate a new repository with the same directory structure and files as
 
 ### Execution in private repository
 
-![repository schema](./assets/schema-repo.png "Repository schema")
+![repository schema](https://github.com/rolling-scopes-school/basic-nodejs-2021Q2/blob/master/assets/schema-repo.PNG)
 
 ### Execution in repository created from template
 
-![repository schema](./assets/schema-template.png "Template schema")
+![repository schema](https://github.com/rolling-scopes-school/basic-nodejs-2021Q2/blob/master/assets/schema-template.PNG)
 
 ## Hints
 
