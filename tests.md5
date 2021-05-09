@@ -1,0 +1,12 @@
+37fe5d3de5cb49897a3d4fb710b30968  test/e2e/lib/index.js
+d841bd1b8b7a222c1bad0a96247934d0  test/e2e/lib/routes.js
+c5b49a5afaa745569662ffdbba40f934  test/e2e/test-auth/boards.test.js
+9d8a9215ee8fcd22ddadc40eb0746d06  test/e2e/test-auth/tasks.test.js
+d244ba3f29fe1f46ecacf1ba81a3a8b7  test/e2e/test-auth/users.test.js
+54932faf468e9036f28ecd4038c561fb  test/e2e/utils/index.js
+f974b3cf45837233e86481bd7281daf3  test/e2e/utils/shouldAuthorizationBeTested.js
+3ea359b1aeaa9fdd19f173292f70756c  test/e2e/utils/createAuthorizedRequest.js
+a50bfd7f160309ae18001e15f1cfd9f2  test/e2e/test/boards.test.js
+851418762bb68fe10ae6e9d12eb0a116  test/e2e/test/tasks.test.js
+9e42fd04ec29ff6d34a9a2c096111c46  test/e2e/test/users.test.js
+1a4bd8f290bc321c34329c6acbfbd241  test/setup.js
