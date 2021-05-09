@@ -14,6 +14,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/caesar-cipher-cli-tool.md)
 * [Cross-check criteria](./cross-check/caesar-cipher-cli-tool.md)
 
+### Task 2. Express REST service
+
+* Execute in: **template**
+* [Description](./descriptions/express-rest-service.md)
+* [Cross-check criteria](./cross-check/express-rest-service.md)
+
 ---
 
 ## Tasks execution schemas
