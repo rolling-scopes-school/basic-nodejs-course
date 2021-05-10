@@ -45,6 +45,12 @@ pipeline(
 .then(success and error callbacks)
 ```
 
+2. Implement **commands** "encode" and "decode" instead of **option** --action. Usage example:
+
+```bash
+$ node my_caesar_cli encode -s 7 -i "./input.txt" -o "./output.txt"
+```
+
 **Usage example:**  
 1. _-a (--action)_ is **encode**
 
