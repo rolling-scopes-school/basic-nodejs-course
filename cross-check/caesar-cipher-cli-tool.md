@@ -25,3 +25,32 @@
 * При изменении порядка аргументов происходит ошибка либо изменяется результат выполнения кода **минус 10 баллов**
 
 N.B. `console.error` пишет ошибку в `process.stderr`, большинство библиотек для парсинга параметров при ошибке также пишут в `process.stderr`. В VS Code, если запустить приложение в режиме [дебага](https://code.visualstudio.com/docs/editor/debugging), можно увидеть в панели output, что цвет сообщений, выводимых в `process.stdout` и `process.stderr` отличаются.
+
+**Уточнение по передаваемым аргументам**
+
+Вызывает ошибку:
+
+* Отсутствует обязательный парамерт --action.
+```bash
+$ node my_caesar_cli --shift 7
+```
+* Имеется обязательный параметр --action, но нет обязательного аргумента "encode" или "decode".
+```bash
+$ node my_caesar_cli --action --shift 7 | $ node my_caesar_cli --action hello --shift 7
+```
+* Отсутствует обязательный парамерт --shift.
+```bash
+$ node my_caesar_cli --action encode
+```
+* Имеется обязательный параметр --shift, но нет обязательного аргумента. Аргумент целочисленное значение (отрицательное* или положительное). *Если вы реализовали отрицательный shift, смотрите "Продвинутая реализация".
+```bash
+$ node my_caesar_cli --action --shift | $ node my_caesar_cli --action hello --shift hello
+```
+* Имеется необязательный параметр --input, но нет обязательного аргумента (путь до файла на чтение)
+```bash
+$ node my_caesar_cli --action encode --shift 7 --input
+```
+* Имеется необязательный параметр --output, но нет обязательного аргумента (путь до файла на запись)
+```bash
+$ node my_caesar_cli --action encode --shift 7 --output
+```
