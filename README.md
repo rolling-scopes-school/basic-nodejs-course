@@ -20,17 +20,23 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/express-rest-service.md)
 * [Cross-check criteria](./cross-check/express-rest-service.md)
 
+### Task 3. Debug in Node.js
+
+* Execute in: **private repository**
+* [Description](./descriptions/debug-nodejs.md)
+* [Cross-check criteria](./cross-check/debug-nodejs.md)
+
 ---
 
 ## Tasks execution schemas
 
 ### Execution in private repository
 
-![repository schema](https://github.com/rolling-scopes-school/basic-nodejs-2021Q2/blob/master/assets/schema-repo.PNG)
+![repository schema](./assets/schema-repo.PNG)
 
 ### Execution in repository created from template
 
-![repository schema](https://github.com/rolling-scopes-school/basic-nodejs-2021Q2/blob/master/assets/schema-template.PNG)
+![repository schema](./assets/schema-template.PNG)
 
 ## Hints
 
