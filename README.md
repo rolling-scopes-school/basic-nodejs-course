@@ -26,6 +26,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/debug-nodejs.md)
 * [Cross-check criteria](./cross-check/debug-nodejs.md)
 
+### Task 4. Typescript basics
+
+* Execute in: **template**
+* [Description](./descriptions/typescript-basics.md)
+* [Cross-check criteria](./cross-check/typescript-basics.md)
+
 ---
 
 ## Tasks execution schemas
