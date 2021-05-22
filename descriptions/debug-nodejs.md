@@ -38,7 +38,7 @@ For this task you will use [this](https://github.com/AlreadyBored/broken-app) te
 - password  
 ![debug_alt-8_link](../assets/d-8.jpg "Instruction alt 8")
 (alternatively - use URL).  
-9. Install `donenv` package ([some info](https://dev.to/numtostr/environment-variables-in-node-js-the-right-way-15ad)) and in `.env` file (should be in root) set following variables:
+9. Install [dotenv](https://www.npmjs.com/package/dotenv) package ([some info](https://dev.to/numtostr/environment-variables-in-node-js-the-right-way-15ad)) and in `.env` file (should be in root) set following variables:
 ```bash
 DB_HOST=tai.db.elephantsql.com
 DB=yourdatabasename
