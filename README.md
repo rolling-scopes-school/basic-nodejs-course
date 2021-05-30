@@ -32,6 +32,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/typescript-basics.md)
 * [Cross-check criteria](./cross-check/typescript-basics.md)
 
+### Task 5. Logging & Error Handling
+
+* Execute in: **template**
+* [Description](./descriptions/logging-error-handling.md)
+* [Cross-check criteria](./cross-check/logging-error-handling.md)
+
 ---
 
 ## Tasks execution schemas
