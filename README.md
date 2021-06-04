@@ -48,7 +48,7 @@ You can generate a new repository with the same directory structure and files as
 
 ### Execution in repository created from template
 
-![repository schema](./assets/schema-template.PNG)
+![template schema](./assets/schema-template.JPG)
 
 ## Hints
 
