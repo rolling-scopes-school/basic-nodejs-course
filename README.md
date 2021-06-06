@@ -40,7 +40,7 @@ You can generate a new repository with the same directory structure and files as
 
 ### Task 6. Docker basics
 
-* Execute in: **private repository**
+* Execute in: **template**
 * [Description](./descriptions/docker-basics.md)
 * [Cross-check criteria](./cross-check/docker-basics.md)
 
