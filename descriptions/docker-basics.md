@@ -1,16 +1,14 @@
-# Typescript basics
+# Docker basics
 
-Задание состоит из 2 частей, выполнение первой части отмечается коммитом с соответствующим тегом ([немного инфо](https://git-scm.com/book/ru/v2/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git-%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-%D1%82%D0%B5%D0%B3%D0%B0%D0%BC%D0%B8)) .
+## Prerequisites
 
-**1 часть (максимум 60 баллов):**
+1. Install [Docker](https://docs.docker.com/engine/install/)
+2. Create Docker Hub account [Docker Hub](https://hub.docker.com/)
 
-Дополнить пользовательские функции в коде [JSDoc](https://www.npmjs.com/package/jsdoc)-комментариями, содержащими краткое описание работы функции, а также описание входных параметров (тип, значение) и возвращаемого значения (если применимо). Контроллеры и другие сущности помимо пользовательских функций описывать не обязательно.
+**Details:**
 
-**2 часть (максимум 190 баллов):**
-
-Осуществить миграцию с **Javascript** на **Typescript**
-* Все файлы в папке `src` должны иметь расширение `.ts`
-* Не должно быть ошибок компилятора и/или линтера
-* В проекте должны использоваться файлы `eslintrc.json` и `tsconfig.json`
-* Не допускается использование типов `any`, `unknown`
-* Миграция на **Typescript** не должна приводить к тому, что работоспособность приложения будет нарушена
+1. Create .dockerignore file and list all files that should be ignored by Docker
+2. Create Dockerfile that will be used for building image of express application
+3. Create Dockerfile that will be used for building image of PostgreSQL database. Migrate database schema and seed default data
+4. Create docker-compose.yml file that will build express application and PostgreSQL database. Specify custom network that will be used for communication between application and database containers
+5. Push built images to your private repository on Docker Hub
