@@ -38,6 +38,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/logging-error-handling.md)
 * [Cross-check criteria](./cross-check/logging-error-handling.md)
 
+### Task 6. Docker basics
+
+* Execute in: **private repository**
+* [Description](./descriptions/docker-basics.md)
+* [Cross-check criteria](./cross-check/docker-basics.md)
+
 ---
 
 ## Tasks execution schemas
