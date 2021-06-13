@@ -44,6 +44,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/docker-basics.md)
 * [Cross-check criteria](./cross-check/docker-basics.md)
 
+### Task 7. PostgreSQL & Typeorm
+
+* Execute in: **template**
+* [Description](./descriptions/postgresql-typeorm.md)
+* [Cross-check criteria](./cross-check/postgresql-typeorm.md)
+
 ---
 
 ## Tasks execution schemas
