@@ -50,6 +50,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/postgresql-typeorm.md)
 * [Cross-check criteria](./cross-check/postgresql-typeorm.md)
 
+### Task 8. Authentification & JWT
+
+* Execute in: **template**
+* [Description](./descriptions/authentification-jwt.md)
+* [Cross-check criteria](./cross-check/authentification-jwt.md)
+
 ---
 
 ## Tasks execution schemas
