@@ -56,6 +56,12 @@ You can generate a new repository with the same directory structure and files as
 * [Description](./descriptions/authentification-jwt.md)
 * [Cross-check criteria](./cross-check/authentification-jwt.md)
 
+### Task 9. NestJS
+
+* Execute in: **template**
+* [Description](./descriptions/nestjs.md)
+* [Cross-check criteria](./cross-check/nestjs.md)
+
 ---
 
 ## Tasks execution schemas
