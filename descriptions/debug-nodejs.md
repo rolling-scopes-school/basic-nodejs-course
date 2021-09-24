@@ -11,7 +11,7 @@ For this task you will use [this](https://github.com/AlreadyBored/broken-app) te
 5. Create database with name `gamedb`  
 ![debug-1_link](../assets/debug-1.PNG "Instruction 1")  
 ![debug-2_link](../assets/debug-2.PNG "Instruction 2")  
-6. In file `db.js` change `username` and `login` strings to yours (**DO NOT COMMIT THIS**)  
+6. In file `db.js` change `username` and `password` strings to yours (**DO NOT COMMIT THIS**)  
 ![debug-3_link](../assets/debug-3.PNG "Instruction 3")  
 7. Install dependencies (`npm i`)  
 8. Run application via `npm run start`  
