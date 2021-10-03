@@ -14,11 +14,9 @@ CLI tool should accept 4 options (short alias and full name):
 **Basic Scope**
 
 1. For command-line arguments could be used one of
-
-- [https://www.npmjs.com/package/commander](https://www.npmjs.com/package/commander)
-- [https://www.npmjs.com/package/minimist](https://www.npmjs.com/package/minimist)
-  or any other module.
-
+  - [https://www.npmjs.com/package/commander](https://www.npmjs.com/package/commander)
+  - [https://www.npmjs.com/package/minimist](https://www.npmjs.com/package/minimist)
+  - any other similar module.
 2. `Action` (**encode**/**decode**) and the `shift` are required, if one of them missed - an error should be shown, the process should exit with non-zero status code.
 3. If the input file is missed - use `stdin` as an input source.
 4. If the output file is missed - use `stdout` as an output destination.
@@ -27,6 +25,7 @@ CLI tool should accept 4 options (short alias and full name):
 7. For encoding/decoding **use only the English alphabet**, all other characters should be kept untouched.
 8. Using `streams` for reading, writing and transformation of text **is mandatory**.
 9. The tool must work correctly with an integer values of `shift (-s, --shift)` that are **greater than alphabet length**.
+10. If any option is duplicated (i.e. `bash $ node my_caesar_cli -a encode -s 7 --shift 7`) then **human-friendly** error should be printed in `stderr`.
 
 **Advanced Scope**
 
