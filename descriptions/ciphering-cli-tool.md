@@ -25,7 +25,7 @@ For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by C
 
 1. The task must be solved using only **pure Node.js**. Any libraries and packages **are prohibited**.
 2. `Config` option is required and should be validated. In case of invalid confing **human-friendly** error should be printed in `stderr` and the process should exit with non-zero status code.
-3. If any option is duplicated (i.e. `bash $ node my_caesar_cli -c C1-C1-A-R0 -c C0`) then **human-friendly** error should be printed in `stderr` and the process should exit with non-zero status code.
+3. If any option is duplicated (i.e. `bash $ node my_ciphering_cli -c C1-C1-A-R0 -c C0`) then **human-friendly** error should be printed in `stderr` and the process should exit with non-zero status code.
 4. If the input file option is missed - use `stdin` as an input source.
 5. If the output file option is missed - use `stdout` as an output destination.
 6. If the input and/or output file is given but doesn't exist or you can't access it (e.g. because of permissions or it's a directory) - **human-friendly** error should be printed in `stderr` and the process should exit with non-zero status code.
@@ -38,7 +38,7 @@ For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by C
 **Usage example:**  
 
 ```bash
-$ node my_caesar_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
+$ node my_ciphering_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
 ```
 
 > input.txt
@@ -48,7 +48,7 @@ $ node my_caesar_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
 > `Myxn xn nbdobm. Tbnnfzb ferlm "_" nhteru!`
 
 ```bash
-$ node my_caesar_cli -c "C1-C0-A-R1-R0-A-R0-R0-C1-A" -i "./input.txt" -o "./output.txt"
+$ node my_ciphering_cli -c "C1-C0-A-R1-R0-A-R0-R0-C1-A" -i "./input.txt" -o "./output.txt"
 ```
 
 > input.txt
@@ -58,7 +58,7 @@ $ node my_caesar_cli -c "C1-C0-A-R1-R0-A-R0-R0-C1-A" -i "./input.txt" -o "./outp
 > `Vhgw gw wkmxkv. Ckwwoik onauv "_" wqcnad!`
 
 ```bash
-$ node my_caesar_cli -c "A-A-A-R1-R0-R0-R0-C1-C1-A" -i "./input.txt" -o "./output.txt"
+$ node my_ciphering_cli -c "A-A-A-R1-R0-R0-R0-C1-C1-A" -i "./input.txt" -o "./output.txt"
 ```
 
 > input.txt
@@ -68,7 +68,7 @@ $ node my_caesar_cli -c "A-A-A-R1-R0-R0-R0-C1-C1-A" -i "./input.txt" -o "./outpu
 > `Hvwg wg gsqfsh. Asggous opcih "_" gmapcz!`
 
 ```bash
-$ node my_caesar_cli -c "C1-R1-C0-C0-A-R0-R1-R1-A-C1" -i "./input.txt" -o "./output.txt"
+$ node my_ciphering_cli -c "C1-R1-C0-C0-A-R0-R1-R1-A-C1" -i "./input.txt" -o "./output.txt"
 ```
 
 > input.txt
