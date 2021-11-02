@@ -10,7 +10,7 @@ CLI tool should accept 3 options (short alias and full name):
 1.  **-c, --config**: config for ciphers
 Config is a string with pattern `{XY(-)}n`, where:
   * `X` is a cipher mark:
-    * `C` is for Caesar cipher
+    * `C` is for Caesar cipher (with shift 1)
     * `A` is for Atbash cipher
     * `R` is for ROT-8 cipher
   * `Y` is flag of encoding or decoding (mandatory for Caesar cipher and ROT-8 cipher and should not be passed Atbash cipher)
@@ -23,7 +23,7 @@ For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by C
 
 ## Details:
 
-1. The task must be solved using only **pure Node.js**. Any libraries and packages **are prohibited**.
+1. The task must be solved using only **pure Node.js**. Any libraries and packages (except tools to improve code or development quality like `nodemon`, `prettier`, `eslint` and its plugins) or **are prohibited**.
 2. `Config` option is required and should be validated. In case of invalid confing **human-friendly** error should be printed in `stderr` and the process should exit with non-zero status code.
 3. If any option is duplicated (i.e. `bash $ node my_caesar_cli -c C1-C1-A-R0 -c C0`) then **human-friendly** error should be printed in `stderr` and the process should exit with non-zero status code.
 4. If the input file option is missed - use `stdin` as an input source.
