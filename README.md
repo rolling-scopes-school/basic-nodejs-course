@@ -11,3 +11,9 @@
 * Execute in: **private repository**
 * [Description](./descriptions/ciphering-cli-tool.md)
 * [Cross-check criteria](./cross-check/ciphering-cli-tool.md)
+
+### Task 2. Testing
+
+* Execute in: **private repository (from 1st task)**
+* [Description](./descriptions/testing.md)
+* [Cross-check criteria](./cross-check/testing.md)
