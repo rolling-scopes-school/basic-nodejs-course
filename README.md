@@ -1,6 +1,8 @@
-# RS School NodeJS Course
+# Welcome to the Rolling Scopes School Node.js course!
 
-**N.B**. Tasks for which the field *"Execute in"* written "template" should be implemented using the template, others - in the student's private repository.
+![course logo](./assets/course-logo.png)
+
+**N.B!**. Tasks for which the field *"Execute in"* written "template" should be implemented using the template, others - in the student's private repository.
 
 ---
 
@@ -17,3 +19,9 @@
 * Execute in: **private repository (from 1st task)**
 * [Description](./descriptions/testing.md)
 * [Cross-check criteria](./cross-check/testing.md)
+
+### Task 3. Simple CRUD API
+
+* Execute in: **private repository**
+* [Description](./descriptions/simple-crud-api.md)
+* [Cross-check criteria](./cross-check/simple-crud-api.md)
