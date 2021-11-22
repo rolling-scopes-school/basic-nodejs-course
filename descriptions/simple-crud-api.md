@@ -5,7 +5,7 @@ NB! You must create new repository for this task. Its name must be `simple-crud-
 
 ## Details:
 
-1. The task must be solved using only **pure Node.js**. Any libraries and packages (except `nodemon`, `eslint` and its plugins, `prettier` and its plugins, `uuid`, `webpack` and its plugins, testing tools, `dotenv`) **are prohibited**.
+1. The task must be solved using only **pure Node.js**. Any libraries and packages (except `nodemon`, `eslint` and its plugins, `prettier` and its plugins, `uuid`, `webpack` and its plugins, testing tools, `dotenv`, `cross-env`) **are prohibited**.
 2. API path `/person`:
     * **GET** `/person` or `/person/${personId}` should return all persons or person with corresponding `personId`
     * **POST** `/person` is used to create record about new person and store it in database
