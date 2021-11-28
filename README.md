@@ -25,3 +25,9 @@
 * Execute in: **private repository**
 * [Description](./descriptions/simple-crud-api.md)
 * [Cross-check criteria](./cross-check/simple-crud-api.md)
+
+### Task 4. REST Service
+
+* Execute in: **template**
+* [Description](./descriptions/rest-service.md)
+* [Cross-check criteria](./cross-check/rest-service.md)
