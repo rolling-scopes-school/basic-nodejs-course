@@ -2,6 +2,8 @@
 
 Let's try to create a competitor for [Trello](https://trello.com/)!
 
+NB! You must create new repository from [template](https://github.com/rolling-scopes-school/nodejs-course-template/) for this task. Its name must be `nodejs2021Q4-service` i.e. full link to the repository must be `https://github.com/%your-gihub-id%/nodejs2021Q4-service`.
+
 **Create an application, the application should operate with the following resources:**
 
 - `User` (with attributes):
