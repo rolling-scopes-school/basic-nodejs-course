@@ -31,3 +31,9 @@
 * Execute in: **template**
 * [Description](./descriptions/rest-service.md)
 * [Cross-check criteria](./cross-check/rest-service.md)
+
+### Task 5. Typescript basics
+
+* Execute in: **template**
+* [Description](./descriptions/typescript-basics.md)
+* [Cross-check criteria](./cross-check/typescript-basics.md)
