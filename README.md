@@ -37,3 +37,9 @@
 * Execute in: **template**
 * [Description](./descriptions/typescript-basics.md)
 * [Cross-check criteria](./cross-check/typescript-basics.md)
+
+### Task 6. Logging & Error Handling
+
+* Execute in: **template**
+* [Description](./descriptions/logging-error-handling.md)
+* [Cross-check criteria](./cross-check/logging-error-handling.md)
