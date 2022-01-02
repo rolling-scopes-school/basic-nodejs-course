@@ -43,3 +43,9 @@
 * Execute in: **template**
 * [Description](./descriptions/logging-error-handling.md)
 * [Cross-check criteria](./cross-check/logging-error-handling.md)
+
+### Task 7. Docker basics
+
+* Execute in: **template**
+* [Description](./descriptions/docker-basics.md)
+* [Cross-check criteria](./cross-check/docker-basics.md)
