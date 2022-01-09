@@ -49,3 +49,9 @@
 * Execute in: **template**
 * [Description](./descriptions/docker-basics.md)
 * [Cross-check criteria](./cross-check/docker-basics.md)
+
+### Task 8. PostgreSQL & Typeorm
+
+* Execute in: **template**
+* [Description](./descriptions/postgresql-typeorm.md)
+* [Cross-check criteria](./cross-check/postgresql-typeorm.md)
