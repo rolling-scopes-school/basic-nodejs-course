@@ -56,7 +56,7 @@
 * [Description](./descriptions/postgresql-typeorm.md)
 * [Cross-check criteria](./cross-check/postgresql-typeorm.md)
 
-### Task 9. Authentification & JWT
+### Task 9. Authentication & JWT
 
 * Execute in: **template**
 * [Description](./descriptions/auth-jwt.md)
