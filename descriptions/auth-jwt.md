@@ -1,6 +1,6 @@
 # Authentication and JWT
 
-1. `POST /users` should accept `password` field and before save replace it with **hash** (use [bcrypt package](https://www.npmjs.com/package/bcrypt)).
+1. `POST /users` should accept `password` field and before save replace it with **hash** (use [bcrypt package](https://www.npmjs.com/package/bcrypt) or its equivalent like `bcryptjs`).
 2. Implement `POST /login` method which accepts **JSON** with `login` and `password` and returns **JWT** token in response body: `{ token: <jwt_token> }` (use [jsonwebtoken package](https://www.npmjs.com/package/jsonwebtoken)).
 3. **JWT** token should contain `userId` and `login` in a **payload**.
 4. Secret that used for signing the token should be stored in `.env` file.
