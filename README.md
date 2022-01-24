@@ -61,3 +61,9 @@
 * Execute in: **template**
 * [Description](./descriptions/auth-jwt.md)
 * [Cross-check criteria](./cross-check/auth-jwt.md)
+
+### Task 10. Nest.js
+
+* Execute in: **template**
+* [Description](./descriptions/nestjs.md)
+* [Cross-check criteria](./cross-check/nestjs.md)
