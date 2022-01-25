@@ -1,6 +1,6 @@
 # Typescript basics
 
-Your task if to migrate your project from Javascript to Typescript
+Your task is to migrate your project from Javascript to Typescript
 
 * All code files in `src` folder must have `.ts` extension
 * There shouldn't be errors of TS compiler and linter
